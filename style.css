@@ -1,0 +1,78 @@
+body{
+    background-image: url(/CSS/img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+h1{
+    color: rgb(82, 211, 237);
+    font-family: "Press Start 2P";
+    border-top-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+    margin-top: 0px;
+}
+
+p{
+    color:gray;
+    font-family: "consolas",sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: dotted underline;
+    font-size: 18px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding:5px;
+    clear: both;
+}
+#p1{
+    background-color:tomato;
+    color:rgb(165, 185, 64)
+}
+#p2{
+    background-color:lime;
+    color:rgb(75, 42, 185)
+}
+.od{
+    color: red;
+}
+.ev{
+    color: rgb(231, 150, 29);
+    background: linear-gradient(to left,skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
+    padding: 20px;
+    margin-left: auto;
+}
+img{
+    float: left ;
+}
+#box3{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
+    float: left;
+}
